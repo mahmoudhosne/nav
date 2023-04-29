@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: sans-serif;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+p,
+h2 {
+  color: white;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.71), black);
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.505);
+  overflow: hidden;
+  position: relative;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  background: linear-gradient(rgba(66, 64, 64, 0.856), rgba(230, 123, 123, 0));
+}
+
+.logo {
+  width: 15%;
+
+  /* background-color: aqua; */
+}
+.logo img {
+  width: 50%;
+  margin-left: 35%;
+}
+header ul {
+  text-align: center;
+  width: 60%;
+}
+header ul li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+header ul li a {
+  color: white;
+  display: inline-block;
+}
+
+/* qustionnoooooooooooooooooooooooote */
+/* header ul li a:hover {
+  transform: scale(1.2);
+  letter-spacing: 1px;
+  color: rgb(229, 229, 16);
+  background-color: rgb(90, 84, 84);
+} */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background-color: azure;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  padding-left: 4%;
+}
+
+.content .text {
+  width: 50%;
+  /* background-color: blueviolet; */
+}
+
+.content .text h2 {
+  /* background-color: brown; */
+  font-size: 55px;
+  width: 100%;
+  margin-bottom: 10%;
+  text-transform: uppercase;
+}
+
+.content .text p {
+  font-size: 20px;
+  line-height: 2;
+  width: 70%;
+  margin-bottom: 10%;
+  letter-spacing: 1px;
+}
+.content .text a {
+  background-color: white;
+  color: black;
+  padding: 14px 19px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: 0.6s;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+.content .text a:hover {
+  transform: scale(1.2);
+  letter-spacing: 4px;
+  color: rgb(33, 6, 2);
+  background: linear-gradient(
+    rgba(230, 123, 123, 0),
+    rgba(240, 186, 186, 0.952)
+  );
+}
+.content .image {
+  width: 35%;
+  /* background-color: azure; */
+}
+.content .image img {
+  width: 280px;
+}
+.icons {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icons img {
+  width: 60px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.icons img:hover {
+  transform: scale(1.2);
+}
